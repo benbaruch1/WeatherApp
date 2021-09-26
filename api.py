@@ -1,7 +1,8 @@
 import requests
 import shutil
+import config
 
-my_api_key = "9e6c04dfda3479b024fc1c693806d1eb"
+my_api_key = config.my_api_key
 
 
 def get_weather_info(location):  # get api information from OpenWeatherMap
